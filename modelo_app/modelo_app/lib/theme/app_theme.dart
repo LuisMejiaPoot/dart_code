@@ -17,5 +17,14 @@ class AppTheme {
       textTheme: TextTheme(
           bodyLarge:
               TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
-          bodyMedium: TextStyle(color: Colors.black)));
+          bodyMedium: TextStyle(color: Colors.black)),
+      textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(foregroundColor: primary)),
+      floatingActionButtonTheme:
+          const FloatingActionButtonThemeData(backgroundColor: primary),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+        backgroundColor: primary,
+        shape: StadiumBorder(),
+      )));
 }

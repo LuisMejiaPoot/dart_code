@@ -16,7 +16,6 @@ class cardScreen extends StatelessWidget {
   }
 }
 
-
 class Example extends StatelessWidget {
   const Example({
     super.key,
@@ -26,7 +25,13 @@ class Example extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-      children: [CustomCardExample1()],
+      children: [
+        NotificationCustom(),
+        CustomCardType2(
+            title: "Hola mundo",
+            imageUrl:
+                "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/18725/images/DAau3fjETFmAjLVaNl3B_FallLandscape7-.jpg")
+      ],
     );
   }
 }

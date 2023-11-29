@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomCardExample1 extends StatelessWidget {
-  const CustomCardExample1({
+class NotificationCustom extends StatelessWidget {
+  NotificationCustom({
     super.key,
   });
 
